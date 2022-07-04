@@ -1,0 +1,636 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Where is behavioral analytics used?",
+              "id": 395075,
+              "answers": [
+                {
+                  "answer_id": 445263,
+                  "document_id": 710640,
+                  "question_id": 395075,
+                  "text": "used in banking for fraud detection, embedded in AIops tools to help improve incident management, and helps gaming systems to identify cheaters",
+                  "answer_start": 2727,
+                  "answer_end": 2870,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is behavioral analytics?",
+              "id": 395083,
+              "answers": [
+                {
+                  "answer_id": 445272,
+                  "document_id": 710640,
+                  "question_id": 395083,
+                  "text": "Behavioral analytics leverages customer data about who they are (demographics), what they are doing (events), and who they interact with (connections) to derive better insights, predictions, and actions. The process consists of segmentation, predictive modeling, and prescriptive action.",
+                  "answer_start": 4308,
+                  "answer_end": 4595,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is behavioral analytics?",
+              "id": 395085,
+              "answers": [
+                {
+                  "answer_id": 445274,
+                  "document_id": 710640,
+                  "question_id": 395085,
+                  "text": "Behavioral analytics is a set of operations, data, and technology practices targeted at specific business opportunities or aimed to mitigate a set of quantifiable risks",
+                  "answer_start": 5056,
+                  "answer_end": 5224,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Which platforms has capabilities to support behavioral analytics?",
+              "id": 395089,
+              "answers": [
+                {
+                  "answer_id": 445278,
+                  "document_id": 710640,
+                  "question_id": 395089,
+                  "text": "Platforms such as content management, e-commerce, and digital experience often include capabilities to support behavioral analytics",
+                  "answer_start": 5354,
+                  "answer_end": 5485,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "You’re shopping for a car. You visit a manufacturer’s website to learn about model trims, review deals listed on the local dealer’s website, and then visit the dealership. What information can the sales rep review to learn about your purchasing needs and determine the best options to offer you?\n\nThe security operations center receives an alert about an employee’s activities on the network. Is the employee learning about different business areas and just working at unexpected hours from a remote location? Or is this malicious behavior and the SOC should take action?\n\nThese are examples of insights that user behavior analytics can provide. Common use cases include increasing business-to-business and business-to-consumer sales, improving customer experience, detecting anomalies, alerting on risks, and leveraging data from Internet of Things devices to identify dangerous conditions.\n\nRosaria Silipo, principal data scientist and head of evangelism at KNIME, offers this simple definition of behavioral analytics. She says, “Behavioral analytics studies people’s reactions and behavior patterns in particular situations.”\nBusiness opportunities in behavioral analytics\n\nBehavioral analytics is particularly important any time a product or service has many people doing numerous things where there are both opportunities to improve outcomes and to reduce risks. Examples include customer buying habits on large-scale e-commerce websites, healthcare applications, gaming platforms, and wealth management in banking. Silipo explains further, “The goal is to study the mass of people, and the key is the availability of large amounts of data.“\n\nKathy Brunner, CEO of Acumen Analytics, refers to research that the global behavior analytics market is projected to reach $2.2 billion by 2026, from $427.3 million, at a compound annual growth rate of 32% from 2022 to 2026.\n\nBrunner shares these insights on the business opportunities. “The current focus is mainly retail, and why not? Where I see real transformation is in combining this capability with AI/ML, other advanced modeling technologies, and real-world evidence in healthcare data. Imagine the impact from figuring out how best to get patients into clinical trials, improving drug discovery, and advancing patient outcomes with precision and personalized medicine.”\n\nSo although behavioral analytics can be an issue if an implementation violates privacy norms or compliance regulations, it can also lead to very positive outcomes for consumers and businesses.\nMitigating risks with behavioral analytics\n\nBehavioral analytics is often used for business opportunities, but the techniques are just as applicable to identify and alert on risks. Behavioral analytics is used in banking for fraud detection, embedded in AIops tools to help improve incident management, and helps gaming systems to identify cheaters.\n\nLarge enterprises with many global employees, contractors, and suppliers also leverage behavioral analytics to spot suspicious activities. Isaac Kohen, vice president of research and development at Teramind, says, “User and entity behavior analytics can identify and alert the organization to a wide range of anomalous behaviors. Potential threats can be malicious, inadvertent, or compromised activities by an employee, user, or third-party entity. It is used in many industries to prevent insider threats and analyze user behaviors for compliance and regulatory requirements.”\n\nThe data science behind behavioral analytics is often applied to people, customers, and users, but it can also be applied to the entities operating in large-scale systems.\n\nTodd Mostak, CTO and cofounder of Heavy.AI, shares this wider perspective: “Behavioral analytics is a data-driven approach to tracking, predicting, and leveraging behavior data to make informed decisions. With the shipping delays and supply chain shortages today, behavioral analytics technology can monitor the activity of billions of ships, examine ports, and study global shipping patterns to help experts solve these issues.”\nThe data science behind behavioral analytics\n\nBehavior analytics is a broad application of data science, machine learning, and AI techniques. Scott Toborg, head of data science and analytics products at Teradata, explains the underlying data science. “Behavioral analytics leverages customer data about who they are (demographics), what they are doing (events), and who they interact with (connections) to derive better insights, predictions, and actions. The process consists of segmentation, predictive modeling, and prescriptive action.”\n\nToborg suggests that behavioral analytics shares many of the same opportunities data science targets but also faces challenges in developing and supporting machine learning models. He continues, “When properly implemented, behavioral analytics results in better customer experiences, more precise targeted marketing, and greater engagement. However, there are challenges, including privacy, model bias, and stereotyping.”\nUseful techniques and technologies\n\nBehavioral analytics is a set of operations, data, and technology practices targeted at specific business opportunities or aimed to mitigate a set of quantifiable risks. There are many ways organizations can implement behavior analytics. The list below is a subset of the available solutions.\n\n    Platforms such as content management, e-commerce, and digital experience often include capabilities to support behavioral analytics.\n    Customer data platforms centralize data on customers and their actions while providing integrations to perform actions on marketing automation platforms, advertising systems, e-commerce, and other platforms.\n    Product analytics and digital experience analytics platforms such as Adobe Analytics, Amplitude, Contentsquare, FullStory, Glassbox, Heap, Mixpanel, and Userpilot aggregate usage metrics and provide analytics capabilities.\n    Media, e-commerce, and other content-rich websites should consider intelligent search platforms that include behavioral analytics, recommendation engines, and personalization capabilities.\n    Techniques to experiment and learn from user responses include A/B testing, user activity recordings, activity measurement tools, and customer feedback measurement practices. These aim to optimize activities based on customer segments and personas.\n    Application developers can use feature flagging to support large-scale A/B feature testing while implementing microservice observability to identify malicious API activities.\n    Organizations can also consider data analytics, analytics process automation, or machine learning platforms to centralize behavioral data and create behavioral analytics capabilities. Some data platforms include Alteryx, Dataiku, Databricks, DataRobot, Informatica, KNIME, RapidMiner, SAS, Tableau, Talend, and many others.\n    IoT, wearable, augmented reality/virtual reality, voice-enabled devices, and cameras with computer vision capabilities all represent new inputs and data sources for capturing behavioral data.\n\nThere’s little doubt that more organizations will consider using behavioral analytics capabilities to grow revenue, improve experiences, and reduce risks.\n",
+          "document_id": 710640
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "What are the conditions for deadlock?",
+              "id": 395140,
+              "answers": [
+                {
+                  "answer_id": 445330,
+                  "document_id": 710664,
+                  "question_id": 395140,
+                  "text": "Mutual exclusion",
+                  "answer_start": 2181,
+                  "answer_end": 2197,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Mostly used deadlock avoidance algorithm?",
+              "id": 395169,
+              "answers": [
+                {
+                  "answer_id": 445359,
+                  "document_id": 710664,
+                  "question_id": 395169,
+                  "text": "Banker's algorithm",
+                  "answer_start": 9730,
+                  "answer_end": 9748,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the conditions for deadlock?",
+              "id": 395142,
+              "answers": [
+                {
+                  "answer_id": 445332,
+                  "document_id": 710664,
+                  "question_id": 395142,
+                  "text": "Hold and wait",
+                  "answer_start": 2477,
+                  "answer_end": 2490,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the conditions for deadlock?",
+              "id": 395143,
+              "answers": [
+                {
+                  "answer_id": 445333,
+                  "document_id": 710664,
+                  "question_id": 395143,
+                  "text": "No preemption",
+                  "answer_start": 2643,
+                  "answer_end": 2656,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the conditions for deadlock?",
+              "id": 395145,
+              "answers": [
+                {
+                  "answer_id": 445335,
+                  "document_id": 710664,
+                  "question_id": 395145,
+                  "text": "Circular wait",
+                  "answer_start": 2730,
+                  "answer_end": 2743,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is phantom deadlock?",
+              "id": 395152,
+              "answers": [
+                {
+                  "answer_id": 445342,
+                  "document_id": 710664,
+                  "question_id": 395152,
+                  "text": "deadlocks that are falsely detected in a distributed system due to system internal delays but do not actually exist",
+                  "answer_start": 10909,
+                  "answer_end": 11024,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "When will distributed deadlock occur?",
+              "id": 395157,
+              "answers": [
+                {
+                  "answer_id": 445347,
+                  "document_id": 710664,
+                  "question_id": 395157,
+                  "text": "when distributed transactions or concurrency control is being used",
+                  "answer_start": 10633,
+                  "answer_end": 10699,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is deadlock avoidance?",
+              "id": 395166,
+              "answers": [
+                {
+                  "answer_id": 445356,
+                  "document_id": 710664,
+                  "question_id": 395166,
+                  "text": "deadlock avoidance approach ensures that deadlock will not occur in a system",
+                  "answer_start": 8741,
+                  "answer_end": 8817,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is deadlock avoidance?",
+              "id": 395172,
+              "answers": [
+                {
+                  "answer_id": 445362,
+                  "document_id": 710664,
+                  "question_id": 395172,
+                  "text": "Deadlock avoidance requires that the operating system be given in advance additional information concerning which resources a process will request and use during its lifetime. Deadlock avoidance algorithm analyzes each and every request by examining that there is no possibility of deadlock occurrence in the future if the requested resource is allocated",
+                  "answer_start": 9191,
+                  "answer_end": 9545,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "How deadlock prevention works?",
+              "id": 395175,
+              "answers": [
+                {
+                  "answer_id": 445365,
+                  "document_id": 710664,
+                  "question_id": 395175,
+                  "text": "preventing one of the four Coffman conditions from occurring",
+                  "answer_start": 6195,
+                  "answer_end": 6255,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "Not to be confused with Deathlok or Dreadlock.\nThis article is about the computer science concept. For other uses, see Deadlock (disambiguation).\nBoth processes need resources to continue execution. P1 requires additional resource R1 and is in possession of resource R2, P2 requires additional resource R2 and is in possession of R1; neither process can continue.\nFour processes (blue lines) compete for one resource (grey circle), following a right-before-left policy. A deadlock occurs when all processes lock the resource simultaneously (black lines). The deadlock can be resolved by breaking the symmetry.\n\nIn concurrent computing, deadlock is any situation in which no member of some group of entities can proceed because each waits for another member, including itself, to take action, such as sending a message or, more commonly, releasing a lock.[1] Deadlocks are a common problem in multiprocessing systems, parallel computing, and distributed systems, because in these contexts systems often use software or hardware locks to arbitrate shared resources and implement process synchronization.[2]\n\nIn an operating system, a deadlock occurs when a process or thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource held by another waiting process.[3] If a process remains indefinitely unable to change its state because resources requested by it are being used by another process that itself is waiting, then the system is said to be in a deadlock.[4]\n\nIn a communications system, deadlocks occur mainly due to loss or corruption of signals rather than contention for resources.[5]\nTwo processes competing for two resources in opposite order.\n\n    A single process goes through.\n    The later process has to wait.\n    A deadlock occurs when the first process locks the first resource at the same time as the second process locks the second resource.\n    The deadlock can be resolved by cancelling and restarting the first process.\n\n\nNecessary conditions\n\nA deadlock situation on a resource can arise if and only if all of the following conditions occur simultaneously in a system:\n\nMutual exclusion: At least one resource must be held in a non-shareable mode; that is, only one process at a time can use the resource. Otherwise, the processes would not be prevented from using the resource when necessary. Only one process can use the resource at any given instant of time.[8]\n\nHold and wait or resource holding: a process is currently holding at least one resource and requesting additional resources which are being held by other processes.\n\nNo preemption: a resource can be released only voluntarily by the process holding it.\n\nCircular wait: each process must be waiting for a resource which is being held by another process, which in turn is waiting for the first process to release the resource. In general, there is a set of waiting processes, P = {P1, P2, …, PN}, such that P1 is waiting for a resource held by P2, P2 is waiting for a resource held by P3 and so on until PN is waiting for a resource held by P1.[4][9]\n\nThese four conditions are known as the Coffman conditions from their first description in a 1971 article by Edward G. Coffman, Jr.[9]\n\nWhile these conditions are sufficient to produce a deadlock on single-instance resource systems, they only indicate the possibility of deadlock on systems having multiple instances of resources.[10]\nDeadlock handling\n\nMost current operating systems cannot prevent deadlocks.[11] When a deadlock occurs, different operating systems respond to them in different non-standard manners. Most approaches work by preventing one of the four Common conditions from occurring, especially the fourth one.[12] Major approaches are as follows.\nIgnoring deadlock\n\nIn this approach, it is assumed that a deadlock will never occur. This is also an application of the Ostrich algorithm.[12][13] This approach was initially used by MINIX and UNIX.[9] This is used when the time intervals between occurrences of deadlocks are large and the data loss incurred each time is tolerable.\n\nIgnoring deadlocks can be safely done if deadlocks are formally proven to never occur. An example is the RTIC framework.[14]\nDetection\n\nUnder the deadlock detection, deadlocks are allowed to occur. Then the state of the system is examined to detect that a deadlock has occurred and subsequently it is corrected. An algorithm is employed that tracks resource allocation and process states, it rolls back and restarts one or more of the processes in order to remove the detected deadlock. Detecting a deadlock that has already occurred is easily possible since the resources that each process has locked and/or currently requested are known to the resource scheduler of the operating system.[13]\n\nAfter a deadlock is detected, it can be corrected by using one of the following methods:[citation needed]\n\n    Process termination: one or more processes involved in the deadlock may be aborted. One could choose to abort all competing processes involved in the deadlock. This ensures that deadlock is resolved with certainty and speed.[citation needed] But the expense is high as partial computations will be lost. Or, one could choose to abort one process at a time until the deadlock is resolved. This approach has a high overhead because after each abort an algorithm must determine whether the system is still in deadlock.[citation needed] Several factors must be considered while choosing a candidate for termination, such as priority and age of the process.[citation needed]\n    Resource preemption: resources allocated to various processes may be successively preempted and allocated to other processes until the deadlock is broken.[15][failed verification]\n\nPrevention\nMain article: Deadlock prevention algorithms\n(A) Two processes competing for one resource, following a first-come, first-served policy. (B) Deadlock occurs when both processes lock the resource simultaneously. (C) The deadlock can be resolved by breaking the symmetry of the locks. (D) The deadlock can be prevented by breaking the symmetry of the locking mechanism.\n\nDeadlock prevention works by preventing one of the four Coffman conditions from occurring.\n\n    Removing the mutual exclusion condition means that no process will have exclusive access to a resource. This proves impossible for resources that cannot be spooled. But even with spooled resources, the deadlock could still occur. Algorithms that avoid mutual exclusion are called non-blocking synchronization algorithms.\n    The hold and wait or resource holding conditions may be removed by requiring processes to request all the resources they will need before starting up (or before embarking upon a particular set of operations). This advance knowledge is frequently difficult to satisfy and, in any case, is an inefficient use of resources. Another way is to require processes to request resources only when it has none; First, they must release all their currently held resources before requesting all the resources they will need from scratch. This too is often impractical. It is so because resources may be allocated and remain unused for long periods. Also, a process requiring a popular resource may have to wait indefinitely, as such a resource may always be allocated to some process, resulting in resource starvation.[16] (These algorithms, such as serializing tokens, are known as the all-or-none algorithms.)\n    The no preemption condition may also be difficult or impossible to avoid as a process has to be able to have a resource for a certain amount of time, or the processing outcome may be inconsistent or thrashing may occur. However, the inability to enforce preemption may interfere with a priority algorithm. Preemption of a \"locked out\" resource generally implies a rollback, and is to be avoided since it is very costly in overhead. Algorithms that allow preemption include lock-free and wait-free algorithms and optimistic concurrency control. If a process holding some resources and requests for some another resource(s) that cannot be immediately allocated to it, the condition may be removed by releasing all the currently being held resources of that process.\n    The final condition is the circular wait condition. Approaches that avoid circular waits include disabling interrupts during critical sections and using a hierarchy to determine a partial ordering of resources. If no obvious hierarchy exists, even the memory address of resources has been used to determine ordering and resources are requested in the increasing order of the enumeration.[4] Dijkstra's solution can also be used.\n\nDeadlock Avoidance\n\nSimilar to deadlock prevention, deadlock avoidance approach ensures that deadlock will not occur in a system. The term \"deadlock avoidance\" appears to be very close to \"deadlock prevention\" in a linguistic context, but they are very much different in the context of deadlock handling. Deadlock avoidance does not impose any conditions as seen in prevention but, here each resource request is carefully analyzed to see whether it could be safely fulfilled without causing deadlock.\n\nDeadlock avoidance requires that the operating system be given in advance additional information concerning which resources a process will request and use during its lifetime. Deadlock avoidance algorithm analyzes each and every request by examining that there is no possibility of deadlock occurrence in the future if the requested resource is allocated. The drawback of this approach is its requirement of information in advance about how resources are to be requested in the future. One of the most used deadlock avoidance algorithm is Banker's algorithm.[17]\nLivelock\n\"Livelock\" redirects here. For the video game, see Livelock (video game).\n\nA livelock is similar to a deadlock, except that the states of the processes involved in the livelock constantly change with regard to one another, none progressing.\n\nThe term was coined by Edward A. Ashcroft in a 1975 paper[18] in connection with an examination of airline booking systems.[19] Livelock is a special case of resource starvation; the general definition only states that a specific process is not progressing.[20]\n\nLivelock is a risk with some algorithms that detect and recover from deadlock. If more than one process takes action, the deadlock detection algorithm can be repeatedly triggered. This can be avoided by ensuring that only one process (chosen arbitrarily or by priority) takes action.[21]\nDistributed deadlock\n\nDistributed deadlocks can occur in distributed systems when distributed transactions or concurrency control is being used.\n\nDistributed deadlocks can be detected either by constructing a global wait-for graph from local wait-for graphs at a deadlock detector or by a distributed algorithm like edge chasing.\n\nPhantom deadlocks are deadlocks that are falsely detected in a distributed system due to system internal delays but do not actually exist.\n\nFor example, if a process releases a resource R1 and issues a request for R2, and the first message is lost or delayed, a coordinator (detector of deadlocks) could falsely conclude a deadlock (if the request for R2 while having R1 would cause a deadlock). \n",
+          "document_id": 710664
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "What is database?",
+              "id": 395298,
+              "answers": [
+                {
+                  "answer_id": 445491,
+                  "document_id": 710666,
+                  "question_id": 395298,
+                  "text": "A database is a collection of structured data stored in a computer system that can be easily accessed and managed by users. The database keeps data mainly in the form of tables, views, schemas, etc., which allows users to handle the data more efficiently and effectively",
+                  "answer_start": 705,
+                  "answer_end": 975,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is relational database?",
+              "id": 395299,
+              "answers": [
+                {
+                  "answer_id": 445492,
+                  "document_id": 710666,
+                  "question_id": 395299,
+                  "text": "Relational databases organize data into tables with rows and columns. Each row can be identified with a unique key, or “record.” Columns in the relational database are called “attributes.” In most relational databases, the table represents an entity, rows indicate the instances of that specific entity, and columns mention the values attributed to that instance.",
+                  "answer_start": 1057,
+                  "answer_end": 1420,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is non relational database?",
+              "id": 395300,
+              "answers": [
+                {
+                  "answer_id": 445493,
+                  "document_id": 710666,
+                  "question_id": 395300,
+                  "text": "Non-relational (or NoSQL) databases store data in different forms, including documents, graphs, wide columns, and key-value stores, rather than tables as in the relational databases. NoSQL databases are flexible and scalable enough to store and process a vast amount of data",
+                  "answer_start": 1427,
+                  "answer_end": 1701,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is NoSQL?",
+              "id": 395301,
+              "answers": [
+                {
+                  "answer_id": 445494,
+                  "document_id": 710666,
+                  "question_id": 395301,
+                  "text": "Non-relational (or NoSQL) databases store data in different forms, including documents, graphs, wide columns, and key-value stores, rather than tables as in the relational databases. NoSQL databases are flexible and scalable enough to store and process a vast amount of data",
+                  "answer_start": 1427,
+                  "answer_end": 1701,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is database as a service?",
+              "id": 395303,
+              "answers": [
+                {
+                  "answer_id": 445496,
+                  "document_id": 710666,
+                  "question_id": 395303,
+                  "text": "cloud computing service in which a cloud provider offers a comprehensive level of database management features, including operational, maintenance, administrative, and more, based on a fee-based subscription model. It allows users to choose a “pay-as-you-go” service in the areas of scaling, provisioning, availability, and security",
+                  "answer_start": 1932,
+                  "answer_end": 2264,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is database management system?",
+              "id": 395305,
+              "answers": [
+                {
+                  "answer_id": 445498,
+                  "document_id": 710666,
+                  "question_id": 395305,
+                  "text": "an integrated set of software that facilitates database management, including the storage, organization, and retrieval of large volumes of data",
+                  "answer_start": 2895,
+                  "answer_end": 3038,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "As the amount of data generated globally grows exponentially, data-driven businesses are increasingly turning to more innovative database management systems to store, manage, and process all that data. This article provides an overview of database management, how it has evolved – especially during the COVID-19 pandemic – and the future of database management systems. \nWhat Is a Database?\n\nBefore learning more about database management systems, it’s essential to understand what a database is and how various kinds of databases are used.\nWANT TO STAY IN THE KNOW?\n\nGet our weekly newsletter in your inbox with the latest Data Management articles, webinars, events, online courses, and more.\nSubscribe\n\nA database is a collection of structured data stored in a computer system that can be easily accessed and managed by users. The database keeps data mainly in the form of tables, views, schemas, etc., which allows users to handle the data more efficiently and effectively. There are several types of databases suitable for businesses of all sizes:\n\n    Relational databases organize data into tables with rows and columns. Each row can be identified with a unique key, or “record.” Columns in the relational database are called “attributes.” In most relational databases, the table represents an entity, rows indicate the instances of that specific entity, and columns mention the values attributed to that instance. \n\n    Non-relational (or NoSQL) databases store data in different forms, including documents, graphs, wide columns, and key-value stores, rather than tables as in the relational databases. NoSQL databases are flexible and scalable enough to store and process a vast amount of data. \n\n    Cloud databases allow users to access and manage a database in a cloud environment, with the additional benefits of cloud computing. This can be private, public, or a hybrid cloud. \n\n    Databases as a service (DBaaS) is a cloud computing service in which a cloud provider offers a comprehensive level of database management features, including operational, maintenance, administrative, and more, based on a fee-based subscription model. It allows users to choose a “pay-as-you-go” service in the areas of scaling, provisioning, availability, and security. \n\n    Open-source databases are free database applications that allow users to store, view, download, modify, and reuse data based on their unique business requirements. The users can download the source code, customize it, and distribute it without any vendor restrictions.\n\n    Graph databases store data as nodes and edges, and they represent entities and relationships, respectively. There are mainly two models of graph databases: property graphs and RDF graphs. The former focuses on data analytics, and the latter on data integration.\n\nThe Importance of Database Management Systems\n\nA database management system (DBMS) is an integrated set of software that facilitates database management, including the storage, organization, and retrieval of large volumes of data. Database management systems have become more relevant as the use of data in businesses continues to expand, providing organizations with the following benefits:\n\n    Obtaining meaningful insights from the data\n    Organizing the data of customers, clients, inventory, products, and employees efficiently\n    Allowing data storage in different types of data models such as tables, graphs, documents, and so on\n    Facilitating query performance and enabling the generation of new data sets based on the business requirements\n    Automating processes such as data organization, data analytics, and more\n\nDatabase management systems offer stringent data security while enabling various Data Management tasks. There are three types of systems: \n\n    Centralized: All the data lives in a single location, which might be a computer system or a server CPU. Although this kind of database architecture offers increased data security, bottlenecks are common due to high traffic. \n\n    Distributed: Data can be stored in multiple locations. Distributed database systems are easy to manage remotely from a central database management system. The retrieval of lost data is a simple process in a distributed system, as it always stores copies of the same data in multiple locations. \n\n    Federated: Contains multiple autonomous database systems, allowing partial or controlled sharing of data sources. Federated systems can access the data that is located at different data sources and combine them. \n\nHow Have Database Management Systems Evolved?\n\nIn the last decade, the amount of data generated has increased tremendously, rising from two zettabytes of data in 2010 to 64 zettabytes in 2020. The total volume is expected to reach 180 zettabytes by 2025. The need for database management systems to process, manage, interpret, and analyze data has never been greater. \n\nThe COVID-19 pandemic, which accelerated the popularity of online shopping and remote working, further led businesses to embrace database management systems. It also paved the way for the increased use of cloud database management systems over on-premises, with the automation of cloud databases attracting businesses to invest in them. Indeed, the total revenue from the DBMS market was $65 billion in 2020; of that, cloud DBMS accounted for $26 billion.\nThe Future of Database Management Systems\n\nSo, which DBMS trends can we expect to see more of in the years to come?\n\n    Cloud migration: According to one study, 75% of databases will be migrated to the cloud by the end of 2022. Cloud database management systems can store data in any of the cloud storage tiers in different types of data models, including relational, non-relational, and more. During the pandemic, many organizations offered remote working opportunities, and cloud-based systems allowed employees to access their work-related datasets at any time from anywhere.\n    Increased data security: The recent rise of cyber threats and data breaches has inspired an even greater emphasis on data security in database management systems, especially those in the cloud.\n    Open-source cloud: Most organizations are looking for open-source cloud database management systems because they are reluctant to pay license costs. However, they are willing to pay for the services and support. Open-source cloud systems also provide a portable front-end API. \n    Graph in popular demand: Graph database management systems can perform graph database tasks, including storage, processing, and analytics of graph datasets. Today, many businesses prefer a natural way to represent their connected data, making graph a popular technology for industries of all kinds. \n",
+          "document_id": 710666
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "What cloud services offer?",
+              "id": 395105,
+              "answers": [
+                {
+                  "answer_id": 445295,
+                  "document_id": 710641,
+                  "question_id": 395105,
+                  "text": "Cloud services offer various cloud databases, including SQL and NoSQL databases",
+                  "answer_start": 92,
+                  "answer_end": 171,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is database security?",
+              "id": 395109,
+              "answers": [
+                {
+                  "answer_id": 445299,
+                  "document_id": 710641,
+                  "question_id": 395109,
+                  "text": "Database security, an important branch of information security, involves setting up controls and mechanisms to protect the database and the database management system (DBMS) accessing this data from malicious attacks. The goal is to protect the data’s integrity, availability, and confidentiality and comply with relevant regulations. \n\nDatabase security measures should also be applied to the underlying infrastructure, such as the servers hosting the database and any backups. Threat actors constantly create new ways to infiltrate databases because they hold corporate, sensitive, and financial information. This information can be kept hostage for ransom or sold to the highest bidder.",
+                  "answer_start": 788,
+                  "answer_end": 1477,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395111,
+              "answers": [
+                {
+                  "answer_id": 445301,
+                  "document_id": 710641,
+                  "question_id": 395111,
+                  "text": "Excessive privileges",
+                  "answer_start": 2076,
+                  "answer_end": 2096,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395112,
+              "answers": [
+                {
+                  "answer_id": 445302,
+                  "document_id": 710641,
+                  "question_id": 395112,
+                  "text": "Privilege abuse",
+                  "answer_start": 2299,
+                  "answer_end": 2314,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395113,
+              "answers": [
+                {
+                  "answer_id": 445303,
+                  "document_id": 710641,
+                  "question_id": 395113,
+                  "text": "Unauthorized privilege escalation",
+                  "answer_start": 2397,
+                  "answer_end": 2430,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395114,
+              "answers": [
+                {
+                  "answer_id": 445304,
+                  "document_id": 710641,
+                  "question_id": 395114,
+                  "text": "Platform vulnerabilities",
+                  "answer_start": 2510,
+                  "answer_end": 2534,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395118,
+              "answers": [
+                {
+                  "answer_id": 445308,
+                  "document_id": 710641,
+                  "question_id": 395118,
+                  "text": "Access control",
+                  "answer_start": 3010,
+                  "answer_end": 3024,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are database security practices?",
+              "id": 395122,
+              "answers": [
+                {
+                  "answer_id": 445312,
+                  "document_id": 710641,
+                  "question_id": 395122,
+                  "text": "Apply the least privileges principle",
+                  "answer_start": 3320,
+                  "answer_end": 3356,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are database security practices?",
+              "id": 395123,
+              "answers": [
+                {
+                  "answer_id": 445313,
+                  "document_id": 710641,
+                  "question_id": 395123,
+                  "text": "Use access management software",
+                  "answer_start": 3641,
+                  "answer_end": 3671,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are database security practices?",
+              "id": 395124,
+              "answers": [
+                {
+                  "answer_id": 445314,
+                  "document_id": 710641,
+                  "question_id": 395124,
+                  "text": "Implement standard security procedures",
+                  "answer_start": 4045,
+                  "answer_end": 4083,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are the cloud database deployment models?",
+              "id": 395107,
+              "answers": [
+                {
+                  "answer_id": 445297,
+                  "document_id": 710641,
+                  "question_id": 395107,
+                  "text": "    Use a virtual machine (VM) to run your databases on the cloud privately\n    Purchase access to a database service maintained by a cloud provider ",
+                  "answer_start": 231,
+                  "answer_end": 380,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395115,
+              "answers": [
+                {
+                  "answer_id": 445305,
+                  "document_id": 710641,
+                  "question_id": 395115,
+                  "text": " SQL injection ",
+                  "answer_start": 2641,
+                  "answer_end": 2656,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395116,
+              "answers": [
+                {
+                  "answer_id": 445306,
+                  "document_id": 710641,
+                  "question_id": 395116,
+                  "text": "Denial of Service (DoS)",
+                  "answer_start": 2778,
+                  "answer_end": 2801,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "what are the open source database security threats?",
+              "id": 395117,
+              "answers": [
+                {
+                  "answer_id": 445307,
+                  "document_id": 710641,
+                  "question_id": 395117,
+                  "text": "Backup exposure",
+                  "answer_start": 2920,
+                  "answer_end": 2935,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is dos attack?",
+              "id": 395119,
+              "answers": [
+                {
+                  "answer_id": 445309,
+                  "document_id": 710641,
+                  "question_id": 395119,
+                  "text": "occurs when a threat actor repeatedly makes service requests to make the resource unavailable",
+                  "answer_start": 2804,
+                  "answer_end": 2897,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What are database security practices?",
+              "id": 395121,
+              "answers": [
+                {
+                  "answer_id": 445311,
+                  "document_id": 710641,
+                  "question_id": 395121,
+                  "text": "Secure Database User Access",
+                  "answer_start": 3159,
+                  "answer_end": 3186,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "What is penetration testing?",
+              "id": 395126,
+              "answers": [
+                {
+                  "answer_id": 445316,
+                  "document_id": 710641,
+                  "question_id": 395126,
+                  "text": "simulated external attack that can help you discover the ways in which attackers can breach",
+                  "answer_start": 5466,
+                  "answer_end": 5557,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "A cloud database runs on a cloud computing platform that delivers it to users as a service. Cloud services offer various cloud databases, including SQL and NoSQL databases. Here are the two main cloud database deployment models: \n\n    Use a virtual machine (VM) to run your databases on the cloud privately\n    Purchase access to a database service maintained by a cloud provider \n\nThe main advantage of cloud database services is that the vendor provides and maintains high availability and scalability for the database while making the underlying software stack transparent to users.\nJOIN OUR DATA ARCHITECTURE WORKSHOP\n\nSave your seat for this live online training and accelerate your path to modern Data Architecture – September 19-22, 2022.\nRegister Now\n\nWhat Is Database Security?\n\nDatabase security, an important branch of information security, involves setting up controls and mechanisms to protect the database and the database management system (DBMS) accessing this data from malicious attacks. The goal is to protect the data’s integrity, availability, and confidentiality and comply with relevant regulations. \n\nDatabase security measures should also be applied to the underlying infrastructure, such as the servers hosting the database and any backups. Threat actors constantly create new ways to infiltrate databases because they hold corporate, sensitive, and financial information. This information can be kept hostage for ransom or sold to the highest bidder.\nOpen-Source Database Security Threats\n\nAn open-source database includes code components obtained from a source making software open and free for modification and reuse. Closed-source or proprietary databases, on the other hand, are provided under a license that protects the code to prevent copying and any unauthorized use. \n\nBecause open-source software is exposed to additional risks, the field of open-source security has emerged to help organizations protect their open-source investments against security risks.\n\nOpen-source databases are exposed to various security threats, including:\n\n    Excessive privileges – occur when you grant users more privileges than needed to perform their roles. External and internal threats can use excessive privileges to gain unauthorized access to confidential information. \n    Privilege abuse – occurs when users misuse their privileges to perform unauthorized actions. \n    Unauthorized privilege escalation – occurs when attackers convert low-level access to high-level privileges.\n    Platform vulnerabilities – occur when the underlying operating system or platform is vulnerable to data leakage or corruption. \n    SQL injection – occurs when an actor exploits users to send unauthorized database queries that make the server reveal information. \n    Denial of Service (DoS) – occurs when a threat actor repeatedly makes service requests to make the resource unavailable to the database. \n    Backup exposure – occurs when the backup storage media is not protected from attacks.\n    Access control – occurs when there are no access controls to ensure only friendly parties can access the database.\n\nDatabase Security Best Practices\nSecure Database User Access\n\nSecuring user access is key to protecting your database. Here are several practices to help you set up and maintain secure access:\n\nApply the least privileges principle\n\nThis principle helps you ensure that each user gets the least amount of database privileges required for their job and no more, including administrators. It also requires that you provide access only during the period a user needs access and revoke it when it is no longer needed. \n\nUse access management software\n\nSmall organizations can apply the least privileges principle manually, but larger organizations need an access management system to manage this process automatically. This software typically uses predefined policies to determine authorized users and provide them with the allowed privileges. It can provide temporary access whenever a user needs access to the database. \n\nImplement standard security procedures\n\nYou should enforce strong passwords and encrypt and add salt to all password hashes. Another standard security procedure for database accounts is to ensure they get locked after three or four login attempts. Additionally, you should set up a procedure that deactivates the account once an employee leaves or moves to a different role.\nIdentify and Patch Known Open-Source Vulnerabilities\n\nThe National Vulnerability Database (NVD) provides a wealth of information on publicly disclosed open-source software vulnerabilities. However, not all vulnerabilities are reported to the NVD. Additionally, NVD records are kept in a format that can make it difficult to determine which component versions are affected by the vulnerability. Ideally, you should use NVD alongside other sources. \n\nWhen you determine open-source vulnerabilities affecting your databases, immediately apply the security patch or upgrade to a safe version. In some cases, this might involve refactoring some of your queries or data structures, because the new version may not be fully backward compatible.\nPerform Security Testing\n\nSecurity testing can help you find vulnerabilities and security weaknesses that threaten your database. The goal is to discover security gaps before threat actors can. Depending on your scenario, there are various types of security tests you can implement.\n\nA penetration test is a simulated external attack that can help you discover the ways in which attackers can breach your database. Vulnerability assessments can help you inventory and prioritize vulnerabilities so you can address the most critical issues.\n\nConclusion\n\nIn this article, I explained the basics of database security, and provided a few best practices that will help you secure your databases more effectively:\n\n    Secure database user access – ensure database user accounts follow the least privilege principle, use strong passwords and encryption.\n    Identify and patch open-source vulnerabilities – as soon as a vulnerability is discovered in your database engine, patch or update it to a safe version.\n    Perform security testing – run both automated security testing and manual penetration testing to identify security weaknesses in your database and remediate them.\n",
+          "document_id": 710641
+        }
+      ]
+    }
+  ]
+}
